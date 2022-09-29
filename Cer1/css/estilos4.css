@@ -1,0 +1,104 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+    background-color: #fff;
+}
+body {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/793/5/131/minimalism-digital-art-simple-background-cats-eyes-hd-wallpaper-preview.jpg") ;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+
+
+
+}
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+/*
+ * Cover
+ */
+
+.cover {
+    padding: 0 20px;
+}
+.cover .btn-lg {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/*
+ * Affix and center
+ */
+
+@media  {
+    /* Pull out the header and footer */
+    .masthead {
+       position: fixed;
+        top: 0;
+
+    }
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+
+}
+* {
+    padding:0;
+    margin:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+#planes {
+    height: calc(100vh - 56px);
+    padding-top: 20vh;
+}
+
+#contacto{
+    height: calc(100vh - 96px);
+    padding-top: 20vh;
+}

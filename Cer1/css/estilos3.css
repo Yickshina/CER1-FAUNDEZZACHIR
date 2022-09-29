@@ -1,0 +1,110 @@
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid-item {
+    width: 160px;
+    height: 120px;
+    float: left;
+    background: #00997B;
+    border: 1px solid #333;
+    border-color: hsla(0, 0%, 0%, 0.5);
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+/*9*/
+.grid-item1 {
+    background-image:url("http://placekitten.com/160/120?image=1");
+}
+.grid-item2 {
+    background-image:url("http://placekitten.com/160/120?image=2");
+}
+.grid-item3 {
+    background-image:url("http://placekitten.com/160/120?image=3");
+}
+.grid-item4 {
+    background-image:url("http://placekitten.com/160/120?image=4");
+}
+.grid-item5 {
+    background-image:url("http://placekitten.com/160/120?image=5");
+}
+.grid-item6 {
+    background-image:url("http://placekitten.com/160/120?image=6");
+}
+.grid-item7 {
+    background-image:url("http://placekitten.com/160/120?image=7");
+}
+.grid-item8 {
+    background-image:url("http://placekitten.com/160/120?image=8");
+}
+.grid-item9 {
+    background-image:url("http://placekitten.com/160/120?image=9");
+}
+
+/*340*200*/
+
+.grid-item10 {
+    background-image:url("http://placekitten.com/340/200");
+}
+
+
+/*160*200*/
+.grid-item11 {
+    background-image:url("http://placekitten.com/160/200?image=1");
+}
+/*160*260*/
+.grid-item12 {
+    background-image:url("http://placekitten.com/160/260?image=2");
+}
+
+/*160*200*/
+
+.grid-item13 {
+    background-image:url("http://placekitten.com/160/260?image=8");
+}
+
+.grid-item14 {
+    background-image:url("http://placekitten.com/160/260?image=2");
+}
+
+.grid-item15 {
+    background-image:url("http://placekitten.com/160/260?image=3");
+}
+
+.grid-item16 {
+    background-image:url("http://placekitten.com/160/260?image=4");
+}
+
+.grid-item17 {
+    background-image:url("http://placekitten.com/160/260?image=5");
+}
+/*340*160*/
+.grid-item18 {
+    background-image:url("http://placekitten.com/340/160?image 9");
+}
+/*340*260*/
+.grid-item19 {
+    background-image:url("http://placekitten.com/340/260");
+}
+
+/*340*200*/
+
+.grid-item20 {
+    background-image:url("http://placekitten.com/340/200?image12");
+}
+
+/*340*160*/
+
+.grid-item21 {
+    background-image:url("http://placekitten.com/340/160?image2");
+}
+.grid-item--width2 { width: 340px; }
+.grid-item--width3 { width: 520px; }
+.grid-item--width4 { width: 780px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
